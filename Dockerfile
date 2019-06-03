@@ -4,3 +4,5 @@ EXPOSE 80
 COPY http-server /
 
 CMD ["/http-server"]
+
+RUN sleep 60
